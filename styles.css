@@ -1,0 +1,142 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+img {
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #444;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #555;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul, dl {
+    margin-left: 20px;
+}
+
+dt {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.hobbies-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hobbies-layout section {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies-layout h2, h4 {
+    margin-top: 0;
+}
+
+.two-column-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.two-column-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.two-column-list li {
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.two-column-list li:hover {
+    background-color: #e0e0e0;
+}
